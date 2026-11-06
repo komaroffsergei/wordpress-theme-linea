@@ -1,0 +1,1 @@
+<?php get_header(); ?><div class="wrap"><div class="article-head"><?php while(have_posts()):the_post(); ?><h1><?php the_title(); ?></h1></div><div class="article-content"><?php the_content(); if(is_page('contacts'))kl_contact_form();endwhile; ?></div></div><?php get_footer(); ?>

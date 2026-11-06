@@ -1,0 +1,1 @@
+<?php get_header();?><section class="wrap empty-state"><h1>Страница не найдена</h1><p>Возможно, адрес изменился. Вернитесь к началу и продолжите знакомство с проектом.</p><a class="button" href="<?php echo kl_url();?>">На главную</a></section><?php get_footer();?>
